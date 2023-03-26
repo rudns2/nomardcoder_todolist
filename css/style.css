@@ -12,7 +12,8 @@ body{
 .hidden {
   display : none;
 }
-
+#login-form{
+}
 #login-form input{
   padding : 5px;
 }
