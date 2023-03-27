@@ -37,6 +37,9 @@ body{
 #greeting{
   text-align: right;
 }
+#quote{
+  margin: 25px;;
+}
 /* common */
 form{
   margin-bottom: 15px;
