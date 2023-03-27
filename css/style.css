@@ -3,24 +3,67 @@
   padding : 0;
   font-family: 'Noto Sans KR', sans-serif;
 }
-
 body{
-  max-width: 1400px;
-  width: 100%;
+  color : white;
 }
-
 .hidden {
   display : none;
 }
-#login-form{
-}
-#login-form input{
-  padding : 5px;
-}
 
+#login-form input{
+  padding : 10px;
+}
+#todo-form input{
+  display: block;
+  width: 220px;
+  margin: 0 auto;
+  padding: 10px;
+}
+#todo-list{
+  display: flex;
+  justify-content: center;
+}
 #clock{
-  color : blue;
   font-size: 96px;
   font-weight: 900;
   text-align: center;
+}
+
+#weather {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+}
+#greeting{
+  text-align: right;
+}
+/* common */
+form{
+  margin-bottom: 15px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin : 0 auto;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+span {
+  font-size: 20px;
+  text-align: center;
+}
+input{
+  border: 0;
+  font-size: 16px;
+}
+input[type=submit]{
+  background-color: rgb(245, 245, 220, 0.8);
+}
+input[type=submit]:hover{
+  background-color:white;
+}
+input[type=submit]:active{
+  background-color:gray;
 }
