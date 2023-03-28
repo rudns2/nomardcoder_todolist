@@ -30,14 +30,13 @@
 
 #weather {
   position: absolute;
-  top: 1%;
-  right: 2.5%;
+  bottom : 10px;
 }
 #greeting{
   text-align: right;
 }
 #quote{
-  margin: 25px;
+  margin: 15px;
 }
 /* common */
 form{
@@ -84,6 +83,7 @@ input[type=submit]:active{
   }
   img{
     height: 100%;
+    object-fit: cover;
   }
   #quote span{
     font-size : 14px;
