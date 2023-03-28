@@ -20,8 +20,7 @@
   padding: 10px;
 }
 #todo-list{
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 #clock{
   font-size: 96px;
@@ -85,5 +84,8 @@ input[type=submit]:active{
   }
   img{
     height: 100%;
+  }
+  #quote span{
+    font-size : 14px;
   }
 }

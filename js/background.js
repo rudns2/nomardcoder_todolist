@@ -17,3 +17,4 @@ bgImage.src=`img/${chosseImage}`;
 document.body.appendChild(bgImage);
 //body 맨 앞에 추가함
 // document.body.prepend(bgImage);
+
