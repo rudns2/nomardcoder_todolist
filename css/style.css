@@ -27,13 +27,10 @@
   font-weight: 900;
   text-align: center;
 }
-
 #weather {
   position: absolute;
-  bottom : 10px;
-}
-#greeting{
-  text-align: right;
+  top : 5%;
+  left : 2%;
 }
 #quote{
   margin: 15px;
@@ -83,9 +80,16 @@ input[type=submit]:active{
   }
   img{
     height: 100%;
-    object-fit: cover;
   }
   #quote span{
     font-size : 14px;
+  }
+}
+@media (max-width : 420px) {
+  img{
+    object-fit: cover;
+  }
+  #weather{
+    top:0;
   }
 }
